@@ -1,6 +1,6 @@
 import { Router } from 'express';
 import { getAllFoods, getFoodById, postFood, deleteFood, updateFood } from '../controllers/Foodcontroller.js';
-import { verifyToken } from '../../Middleware/verifyToken.js';
+import { verifyToken } from '../Middleware/verifyToken.js';
 
 const router = Router();
 
