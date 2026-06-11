@@ -1,13 +1,13 @@
 import { useEffect, useState } from "react";
 import { Route, Routes } from "react-router-dom";
-import Navbar from "../frontend/components/Navbar.jsx";
-import Login from "../frontend/pages/login.jsx";
-import Register from "../frontend/pages/register.jsx";
-import Contact from "../frontend/pages/contact.jsx";
-import Images from "../frontend/pages/images.jsx";
-import About from "../frontend/pages/about.jsx";
-import Menu from "../frontend/pages/menu.jsx";
-import MenuBoard from "../frontend/pages/menuBoard.jsx";
+import Navbar from "../components/Navbar.jsx";
+import Login from "../pages/login.jsx";
+import Register from "../pages/register.jsx";
+import Contact from "../pages/contact.jsx";
+import Images from "../pages/images.jsx";
+import About from "../pages/about.jsx";
+import Menu from "../pages/menu.jsx";
+import MenuBoard from "../pages/menuBoard.jsx";
 import "./App.css";
 
 const API_URL = "https://dummyjson.com/recipes?limit=8";

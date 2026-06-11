@@ -8,7 +8,7 @@ import mongoose from 'mongoose';
 import { fileURLToPath } from 'url';
 import cors from 'cors';
 
-dotenv.config({ path: fileURLToPath(new URL('../.env', import.meta.url)) });
+dotenv.config({ path: fileURLToPath(new URL('./.env', import.meta.url)) });
 
 const app = express();
 const allowedOrigins = [
